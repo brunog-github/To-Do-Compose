@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">To-Do Compose</string>
+
+    <string name="delete_all_tasks">Remove All Tasks?</string>
+    <string name="delete_all_tasks_confirmation">Are you sure you want to remove all tasks? There is no going back after this action.</string>
+    <string name="delete_task">Remove \'%1$s\'?</string>
+    <string name="delete_task_confirmation">Are you sure you want to remove \'%1$s\'?</string>
+    <string name="content_desc_fab">Add button task</string>
+    <string name="search_action">Search tasks</string>
+    <string name="sort_action">Sort Tasks</string>
+    <string name="delete_all_action">Delete all tasks</string>
+    <string name="search_appBar_icon">Search icon</string>
+    <string name="search_appBar_placeholder">Search</string>
+    <string name="search_appBar_trailingIcon">Close Icon</string>
+    <string name="default_appBar_title">Tasks</string>
+    <string name="icon_content_description">Sad face icon</string>
+    <string name="text_empty_content">No Tasks Found.</string>
+    <string name="new_task_title">Add Task</string>
+    <string name="back_action_description">Back arrow</string>
+    <string name="new_task_add_action_description">Add task</string>
+    <string name="close_action_description">close icon</string>
+    <string name="delete_action_description">Delete task</string>
+    <string name="update_action_description">update task</string>
+    <string name="drop_down_arrow">Drop down arrow</string>
+    <string name="task_content_title">Title</string>
+    <string name="task_content_description">Description</string>
+    <string name="alert_dialog_button_text_no">No</string>
+    <string name="alert_dialog_button_text_yes">Yes</string>
+    <string name="splash_screen_content_description">toDoApp logo splash screen</string>
+</resources>
