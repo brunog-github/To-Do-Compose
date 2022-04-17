@@ -126,10 +126,10 @@ private fun setMessage(
     taskTitle: String
 ): String {
     return when (action) {
-        Action.DELETE_ALL -> "All Tasks Removed."
-        Action.ADD -> "the '${taskTitle}' task has been added successfully!"
-        Action.DELETE -> "the '${taskTitle}' has been successfully deleted!"
-        Action.UPDATE -> "the '${taskTitle}' task has been updated successfully!"
+        Action.DELETE_ALL -> "${action.name}: $taskTitle"
+        Action.ADD -> "${action.name}: $taskTitle"
+        Action.DELETE -> "${action.name}: $taskTitle"
+        Action.UPDATE -> "${action.name}: $taskTitle"
         else -> "successfully undone!"
     }
 }

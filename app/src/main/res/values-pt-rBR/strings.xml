@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">To-Do Compose</string>
+    <string name="delete_all_tasks">Remover todas as tarefas?</string>
+    <string name="delete_all_tasks_confirmation">Tem certeza de que deseja remover todas as tarefas? Não há como voltar atrás após esta ação.</string>
+    <string name="delete_task">Remover \'%1$s\'?</string>
+    <string name="delete_task_confirmation">Tem certeza de que deseja remover \'%1$s\'?</string>
+    <string name="content_desc_fab">botão de adicionar tarefa</string>
+    <string name="search_action">Procurar Tarefas</string>
+    <string name="sort_action">Ordernar tarefas</string>
+    <string name="delete_all_action">Apagar todas as tarefas</string>
+    <string name="search_appBar_icon">icone de pesquisa</string>
+    <string name="search_appBar_placeholder">Pesquisar</string>
+    <string name="search_appBar_trailingIcon">Icone em formato de cruz que fecha</string>
+    <string name="default_appBar_title">Tarefas</string>
+    <string name="icon_content_description">Icone de uma carinha triste</string>
+    <string name="text_empty_content">Nenhuma tarefa encontrada.</string>
+    <string name="alert_dialog_button_text_no">Não</string>
+    <string name="alert_dialog_button_text_yes">Sim</string>
+    <string name="task_content_description">Descrição</string>
+    <string name="task_content_title">Titulo</string>
+    <string name="delete_action_description">Apagar tarefa</string>
+    <string name="update_action_description">Atualizar tarefa</string>
+    <string name="close_action_description">Icone em formato de cruz que fecha</string>
+    <string name="back_action_description">Seta indicando para voltar para a tela anterior</string>
+    <string name="new_task_title">Adicionar Tarefa</string>
+    <string name="new_task_add_action_description">Adicionar Tarefa</string>
+    <string name="drop_down_arrow">Seta para baixo</string>
+    <string name="splash_screen_content_description">logo da tela inicial do app To-Do</string>
+</resources>

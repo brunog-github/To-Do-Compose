@@ -184,8 +184,8 @@ fun ExistingAppBarPreview() {
     ExistingAppBar(
         selectedTask = ToDoTask(
             85,
-            "Ler o poder do agora",
-            "livro que marcou minha vida",
+            "",
+            "",
             Priority.HIGH
         ),
         navigateToListScreen = {}

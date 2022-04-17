@@ -238,7 +238,7 @@ fun SearchAppBar(
             singleLine = true,
             leadingIcon = {
                 IconButton(
-                    onClick = { /*TODO*/ },
+                    onClick = { },
                     modifier = Modifier.alpha(ContentAlpha.disabled)
                 ) {
                     Icon(
@@ -305,7 +305,7 @@ private fun SearchAppBarPreview() {
     SearchAppBar(
         text = "search",
         onTextChange = {},
-        onCloseClicked = { /*TODO*/ },
+        onCloseClicked = {  },
         onSearchClicked = {}
     )
 }
