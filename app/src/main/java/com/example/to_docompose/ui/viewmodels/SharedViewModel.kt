@@ -1,5 +1,6 @@
 package com.example.to_docompose.ui.viewmodels
 
+import android.util.Log
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
@@ -166,6 +167,7 @@ class SharedViewModel @Inject constructor(
     }
 
     fun handleDatabaseActions(action: Action) {
+        Log.d("handleDatabaseAction" ,"triggered")
         when (action) {
             Action.ADD -> {
                 addTask()
@@ -186,7 +188,6 @@ class SharedViewModel @Inject constructor(
 
             }
         }
-        this.action.value = Action.NO_ACTION
     }
 
     fun updateTaskFields(selectedTask: ToDoTask?) {
